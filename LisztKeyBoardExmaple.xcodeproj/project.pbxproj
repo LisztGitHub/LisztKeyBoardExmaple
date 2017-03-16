@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		812C45051E264951002289F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 812C45041E264951002289F7 /* main.m */; };
+		812C45081E264951002289F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 812C45071E264951002289F7 /* AppDelegate.m */; };
+		812C450B1E264951002289F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 812C450A1E264951002289F7 /* ViewController.m */; };
+		812C450E1E264951002289F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 812C450C1E264951002289F7 /* Main.storyboard */; };
+		812C45101E264951002289F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 812C450F1E264951002289F7 /* Assets.xcassets */; };
+		812C45131E264951002289F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 812C45111E264951002289F7 /* LaunchScreen.storyboard */; };
+		812C451E1E264951002289F7 /* LisztKeyBoardExmapleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 812C451D1E264951002289F7 /* LisztKeyBoardExmapleTests.m */; };
+		812C45291E264951002289F7 /* LisztKeyBoardExmapleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 812C45281E264951002289F7 /* LisztKeyBoardExmapleUITests.m */; };
+		812C45391E2649B3002289F7 /* UIView+LisztKeyBoardControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 812C45381E2649B3002289F7 /* UIView+LisztKeyBoardControl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		812C451A1E264951002289F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 812C44F81E264951002289F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 812C44FF1E264951002289F7;
+			remoteInfo = LisztKeyBoardExmaple;
+		};
+		812C45251E264951002289F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 812C44F81E264951002289F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 812C44FF1E264951002289F7;
+			remoteInfo = LisztKeyBoardExmaple;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		812C45001E264951002289F7 /* LisztKeyBoardExmaple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LisztKeyBoardExmaple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		812C45041E264951002289F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		812C45061E264951002289F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		812C45071E264951002289F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		812C45091E264951002289F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		812C450A1E264951002289F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		812C450D1E264951002289F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		812C450F1E264951002289F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		812C45121E264951002289F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		812C45141E264951002289F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		812C45191E264951002289F7 /* LisztKeyBoardExmapleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LisztKeyBoardExmapleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		812C451D1E264951002289F7 /* LisztKeyBoardExmapleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LisztKeyBoardExmapleTests.m; sourceTree = "<group>"; };
+		812C451F1E264951002289F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		812C45241E264951002289F7 /* LisztKeyBoardExmapleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LisztKeyBoardExmapleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		812C45281E264951002289F7 /* LisztKeyBoardExmapleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LisztKeyBoardExmapleUITests.m; sourceTree = "<group>"; };
+		812C452A1E264951002289F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		812C45371E2649B3002289F7 /* UIView+LisztKeyBoardControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LisztKeyBoardControl.h"; sourceTree = "<group>"; };
+		812C45381E2649B3002289F7 /* UIView+LisztKeyBoardControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LisztKeyBoardControl.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		812C44FD1E264951002289F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812C45161E264951002289F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812C45211E264951002289F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		812C44F71E264951002289F7 = {
+			isa = PBXGroup;
+			children = (
+				812C45021E264951002289F7 /* LisztKeyBoardExmaple */,
+				812C451C1E264951002289F7 /* LisztKeyBoardExmapleTests */,
+				812C45271E264951002289F7 /* LisztKeyBoardExmapleUITests */,
+				812C45011E264951002289F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		812C45011E264951002289F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				812C45001E264951002289F7 /* LisztKeyBoardExmaple.app */,
+				812C45191E264951002289F7 /* LisztKeyBoardExmapleTests.xctest */,
+				812C45241E264951002289F7 /* LisztKeyBoardExmapleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		812C45021E264951002289F7 /* LisztKeyBoardExmaple */ = {
+			isa = PBXGroup;
+			children = (
+				812C45361E264985002289F7 /* LisztKeyBoardControl */,
+				812C45061E264951002289F7 /* AppDelegate.h */,
+				812C45071E264951002289F7 /* AppDelegate.m */,
+				812C45091E264951002289F7 /* ViewController.h */,
+				812C450A1E264951002289F7 /* ViewController.m */,
+				812C450C1E264951002289F7 /* Main.storyboard */,
+				812C450F1E264951002289F7 /* Assets.xcassets */,
+				812C45111E264951002289F7 /* LaunchScreen.storyboard */,
+				812C45141E264951002289F7 /* Info.plist */,
+				812C45031E264951002289F7 /* Supporting Files */,
+			);
+			path = LisztKeyBoardExmaple;
+			sourceTree = "<group>";
+		};
+		812C45031E264951002289F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				812C45041E264951002289F7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		812C451C1E264951002289F7 /* LisztKeyBoardExmapleTests */ = {
+			isa = PBXGroup;
+			children = (
+				812C451D1E264951002289F7 /* LisztKeyBoardExmapleTests.m */,
+				812C451F1E264951002289F7 /* Info.plist */,
+			);
+			path = LisztKeyBoardExmapleTests;
+			sourceTree = "<group>";
+		};
+		812C45271E264951002289F7 /* LisztKeyBoardExmapleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				812C45281E264951002289F7 /* LisztKeyBoardExmapleUITests.m */,
+				812C452A1E264951002289F7 /* Info.plist */,
+			);
+			path = LisztKeyBoardExmapleUITests;
+			sourceTree = "<group>";
+		};
+		812C45361E264985002289F7 /* LisztKeyBoardControl */ = {
+			isa = PBXGroup;
+			children = (
+				812C45371E2649B3002289F7 /* UIView+LisztKeyBoardControl.h */,
+				812C45381E2649B3002289F7 /* UIView+LisztKeyBoardControl.m */,
+			);
+			path = LisztKeyBoardControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		812C44FF1E264951002289F7 /* LisztKeyBoardExmaple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 812C452D1E264951002289F7 /* Build configuration list for PBXNativeTarget "LisztKeyBoardExmaple" */;
+			buildPhases = (
+				812C44FC1E264951002289F7 /* Sources */,
+				812C44FD1E264951002289F7 /* Frameworks */,
+				812C44FE1E264951002289F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LisztKeyBoardExmaple;
+			productName = LisztKeyBoardExmaple;
+			productReference = 812C45001E264951002289F7 /* LisztKeyBoardExmaple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		812C45181E264951002289F7 /* LisztKeyBoardExmapleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 812C45301E264951002289F7 /* Build configuration list for PBXNativeTarget "LisztKeyBoardExmapleTests" */;
+			buildPhases = (
+				812C45151E264951002289F7 /* Sources */,
+				812C45161E264951002289F7 /* Frameworks */,
+				812C45171E264951002289F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				812C451B1E264951002289F7 /* PBXTargetDependency */,
+			);
+			name = LisztKeyBoardExmapleTests;
+			productName = LisztKeyBoardExmapleTests;
+			productReference = 812C45191E264951002289F7 /* LisztKeyBoardExmapleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		812C45231E264951002289F7 /* LisztKeyBoardExmapleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 812C45331E264951002289F7 /* Build configuration list for PBXNativeTarget "LisztKeyBoardExmapleUITests" */;
+			buildPhases = (
+				812C45201E264951002289F7 /* Sources */,
+				812C45211E264951002289F7 /* Frameworks */,
+				812C45221E264951002289F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				812C45261E264951002289F7 /* PBXTargetDependency */,
+			);
+			name = LisztKeyBoardExmapleUITests;
+			productName = LisztKeyBoardExmapleUITests;
+			productReference = 812C45241E264951002289F7 /* LisztKeyBoardExmapleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		812C44F81E264951002289F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Liszt;
+				TargetAttributes = {
+					812C44FF1E264951002289F7 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = WQ25C5R45W;
+						ProvisioningStyle = Automatic;
+					};
+					812C45181E264951002289F7 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = WQ25C5R45W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 812C44FF1E264951002289F7;
+					};
+					812C45231E264951002289F7 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = WQ25C5R45W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 812C44FF1E264951002289F7;
+					};
+				};
+			};
+			buildConfigurationList = 812C44FB1E264951002289F7 /* Build configuration list for PBXProject "LisztKeyBoardExmaple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 812C44F71E264951002289F7;
+			productRefGroup = 812C45011E264951002289F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				812C44FF1E264951002289F7 /* LisztKeyBoardExmaple */,
+				812C45181E264951002289F7 /* LisztKeyBoardExmapleTests */,
+				812C45231E264951002289F7 /* LisztKeyBoardExmapleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		812C44FE1E264951002289F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812C45131E264951002289F7 /* LaunchScreen.storyboard in Resources */,
+				812C45101E264951002289F7 /* Assets.xcassets in Resources */,
+				812C450E1E264951002289F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812C45171E264951002289F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812C45221E264951002289F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		812C44FC1E264951002289F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812C45391E2649B3002289F7 /* UIView+LisztKeyBoardControl.m in Sources */,
+				812C450B1E264951002289F7 /* ViewController.m in Sources */,
+				812C45081E264951002289F7 /* AppDelegate.m in Sources */,
+				812C45051E264951002289F7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812C45151E264951002289F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812C451E1E264951002289F7 /* LisztKeyBoardExmapleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812C45201E264951002289F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812C45291E264951002289F7 /* LisztKeyBoardExmapleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		812C451B1E264951002289F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 812C44FF1E264951002289F7 /* LisztKeyBoardExmaple */;
+			targetProxy = 812C451A1E264951002289F7 /* PBXContainerItemProxy */;
+		};
+		812C45261E264951002289F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 812C44FF1E264951002289F7 /* LisztKeyBoardExmaple */;
+			targetProxy = 812C45251E264951002289F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		812C450C1E264951002289F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				812C450D1E264951002289F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		812C45111E264951002289F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				812C45121E264951002289F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		812C452B1E264951002289F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		812C452C1E264951002289F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		812C452E1E264951002289F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = LisztKeyBoardExmaple/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.LisztKeyBoardExmaple";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		812C452F1E264951002289F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = LisztKeyBoardExmaple/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.LisztKeyBoardExmaple";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		812C45311E264951002289F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = LisztKeyBoardExmapleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.LisztKeyBoardExmapleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LisztKeyBoardExmaple.app/LisztKeyBoardExmaple";
+			};
+			name = Debug;
+		};
+		812C45321E264951002289F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = LisztKeyBoardExmapleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.LisztKeyBoardExmapleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LisztKeyBoardExmaple.app/LisztKeyBoardExmaple";
+			};
+			name = Release;
+		};
+		812C45341E264951002289F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = LisztKeyBoardExmapleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.LisztKeyBoardExmapleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LisztKeyBoardExmaple;
+			};
+			name = Debug;
+		};
+		812C45351E264951002289F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = LisztKeyBoardExmapleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.LisztKeyBoardExmapleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LisztKeyBoardExmaple;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		812C44FB1E264951002289F7 /* Build configuration list for PBXProject "LisztKeyBoardExmaple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				812C452B1E264951002289F7 /* Debug */,
+				812C452C1E264951002289F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		812C452D1E264951002289F7 /* Build configuration list for PBXNativeTarget "LisztKeyBoardExmaple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				812C452E1E264951002289F7 /* Debug */,
+				812C452F1E264951002289F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		812C45301E264951002289F7 /* Build configuration list for PBXNativeTarget "LisztKeyBoardExmapleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				812C45311E264951002289F7 /* Debug */,
+				812C45321E264951002289F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		812C45331E264951002289F7 /* Build configuration list for PBXNativeTarget "LisztKeyBoardExmapleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				812C45341E264951002289F7 /* Debug */,
+				812C45351E264951002289F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 812C44F81E264951002289F7 /* Project object */;
+}
